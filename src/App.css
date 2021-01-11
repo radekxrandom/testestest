@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-items: self-end;
+  align-items: center;
+  justify-content: flex-start;
+  height: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  baackground: #627abd;
+  box-shadow: 0 0 8px 4px #0f1a2945;
+  line-height: 3rem;
+}
+
+.nav_element {
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 5rem;
+  border-right: 1px white solid;
+  border-bottom: 1px solid;
+}
+
+.nav_element:hover {
+  background: #00000054;
+  cursor: pointer;
+}
+
+.animation {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+}
+
+.sprite1 {
+  top: 46%;
+  left: 20%;
+}
+
+.sprite2 {
+  top: 62%;
+  left: 40%;
+}
+
+.sprite3 {
+  top: 65%;
+  right: 35%;
+}
+
+.my-element__class--style {
+  width: 20%;
+}
+
+.sprite:hover {
+  cursor: pointer;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/796635100329934848/798118098456412200/back3.jpg");
+}
