@@ -61,7 +61,7 @@ const Sprite = props => {
             widthFrame={102}
             scale={0.25}
             heightFrame={148}
-            steps={12}
+            steps={6}
             loop={false}
             fps={14}
             direction={"forward"}
